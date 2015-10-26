@@ -37,6 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/button_users"
+                android:tag="USERS_ACTIVITY"
+                android:onClick="onClickHandler"
                 android:textColor="#ffffff" />
 
             <Button
@@ -45,6 +47,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/button_estate"
+                android:tag="ESTATE_LIST_ACTIVITY"
+                android:onClick="onClickHandler"
                 android:textColor="#ffffff" />
         </LinearLayout>
 

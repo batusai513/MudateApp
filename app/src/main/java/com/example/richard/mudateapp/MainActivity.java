@@ -1,5 +1,6 @@
 package com.example.richard.mudateapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -28,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void onClickHandler(View view){
+        String whereToGo = view.getTag().toString();
+        Intent intent = new Intent("com.example.richard.parcial." + whereToGo);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -43,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+       /* if (id == R.id.action_settings) {
             return true;
         }
-
+        */
         return super.onOptionsItemSelected(item);
     }
 }

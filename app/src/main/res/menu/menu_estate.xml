@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/actions_edit_estate"
+        android:orderInCategory="100"
+        android:title="@string/actions_edit_estate">
+    </item>
+
+    <item android:id="@+id/actions_delete_estate"
+        android:orderInCategory="100"
+        android:title="@string/actions_delete_estate">
+    </item>
+
+
+</menu>
