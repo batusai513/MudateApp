@@ -9,8 +9,7 @@
     <string name="button_users">Usuarios</string>
     <string name="button_estate">Inmuebles</string>
 
-    <string name="title_activity_users">Usuarios</string>
-    <string name="users_title">Registrate</string>
+    <string name="title_activity_users">Registro</string>
     <string name="label_user_id">ID</string>
     <string name="label_user_name">Nombre</string>
     <string name="label_user_lastname">Apellido</string>
@@ -48,4 +47,8 @@
     <string name="dialog_eliminar">Desea Eliminar?</string>
     <string name="dialog_positive">SI</string>
     <string name="dialog_negative">NO</string>
+    <string name="title_activity_ingreso">Ingreso</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ingreso2">ingreso2</string>
 </resources>

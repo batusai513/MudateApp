@@ -15,15 +15,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#EFEFEF">
 
         <TextView
-            android:id="@+id/main_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Múdate!"
+            android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
-            android:text="@string/main_title"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:layout_marginBottom="20dp"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La mejor manera de anunciar y alquilar"
+            android:id="@+id/textView20"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es rápido, gratis y sencillo!"
+            android:id="@+id/textView21"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,20 +59,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/button_users"
-                android:tag="USERS_ACTIVITY"
+                android:text="INGRESO"
+                android:tag="LOGIN_ACTIVITY"
                 android:onClick="onClickHandler"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:background="#3F51B5"
+                android:layout_marginLeft="10dp" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/button_estate"
-                android:tag="ESTATE_LIST_ACTIVITY"
+                android:text="REGISTRO"
+                android:tag="USERS_ACTIVITY"
                 android:onClick="onClickHandler"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:background="#3F51B5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp" />
         </LinearLayout>
 
     </LinearLayout>
